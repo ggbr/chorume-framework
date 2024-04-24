@@ -29,9 +29,3 @@ Contribuições são bem-vindas! Se você tem alguma sugestão de melhoria, enco
 ## Licença
 
 Este projeto é distribuído sob a licença [MIT](https://opensource.org/licenses/MIT). Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
-
-## Contato
-
-Se tiver alguma dúvida ou sugestão, não hesite em entrar em contato através do email [seu-email@example.com].
-
-Divirta-se aprendendo e desenvolvendo com o Chorume Framework!
