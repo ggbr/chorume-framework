@@ -1,3 +1,3 @@
 <?php
 
-echo "Chorume Framework";
+echo "Chorume Framework !!!";

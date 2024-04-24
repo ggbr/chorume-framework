@@ -1,6 +1,12 @@
-FROM cimg/php:8.3.6-browsers
+FROM dunglas/frankenphp
 
-COPY . /var/www/public
-WORKDIR /var/www/public
-
-ENTRYPOINT [ "php", "/var/www/public/app.php" ]
+# add additional extensions here:
+RUN install-php-extensions \
+    pdo_mysql \
+    gd \
+    intl \
+    zip \
+    opcache
+RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+RUN php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+COPY ./ /app/public
